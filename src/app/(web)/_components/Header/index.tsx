@@ -3,7 +3,7 @@ import Logo from "../logo";
 
 function WebHeader() {
   return (
-    <header className="fixed w-[85%] top-6 left-0 right-0 mx-auto rounded-2xl z-20 h-[60px] bg-white/70 backdrop-blur-md">
+    <header className="fixed w-[90%] top-6 left-0 right-0 mx-auto rounded-2xl z-20 h-[60px] bg-white/70 backdrop-blur-md">
       <div className="flex align-center items-center justify-between w-full px-20 h-full">
 
         <div className="flex items-center space-x-2">
@@ -20,7 +20,7 @@ function WebHeader() {
 
         <div className="flex flex-row items-center space-x-6">
           <Link href="">Log In</Link>
-          <Link href="" className="border border-[#4a236c] px-4 py-2 rounded-lg">Start Writing</Link>
+          <Link href="" className="border border-[#4a236c]/20 px-4 py-2 rounded-lg">Start Writing</Link>
         </div>
       </div>
     </header>

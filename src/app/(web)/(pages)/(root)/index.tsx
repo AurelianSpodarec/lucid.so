@@ -13,7 +13,7 @@ function IconStar() {
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth="0"
-      className="w-4 h-4 fill-[#fbbf24]"
+      className="w-3.5 h-3.5 fill-[#fbbf24]"
       vectorEffect="non-scaling-stroke"
       viewBox="0 -10 187.673 179.503"
     >
@@ -34,10 +34,10 @@ function PageHome() {
 
       <section id="hero" className="relative" style={{ backgroundImage: `url("/images/hero.webp")` }}>
         <div
-          className="absolute top-0 w-full bg-white h-[520px]"
+          className="absolute top-0 w-full bg-white h-[650px]"
           style={{
-            WebkitMaskImage: 'linear-gradient(to bottom, black 15%, transparent 100%)',
-            maskImage: 'linear-gradient(to bottom, black 15%, transparent 100%)',
+            WebkitMaskImage: 'linear-gradient(to bottom, black 20%, transparent 100%)',
+            maskImage: 'linear-gradient(to bottom, black 20%, transparent 100%)',
           }}
         />
         <div
@@ -50,15 +50,13 @@ function PageHome() {
 
         <div className="flex flex-col items-center align-center text-center py-20 z-10 relative">
 
-
-
           <div className="flex space-x-2 items-center align-center mb-4">
             <div className="flex -space-x-2 overflow-hidden">
-              <img src="https://pbs.twimg.com/profile_images/1935348909238321152/ZB51UHkk_normal.jpg" alt="" className="inline-block size-10 rounded-full ring-2 ring-white" />
-              <img src="https://unavatar.io/x/flowagent1" alt="" className="inline-block size-10 rounded-full ring-2 ring-white" />
-              <img src="https://unavatar.io/x/carlvellotti" alt="" className="inline-block size-10 rounded-full ring-2 ring-white" />
-              <img src="https://pbs.twimg.com/profile_images/1918840927352733696/Wh95CwV5_400x400.jpg" alt="" className="inline-block size-10 rounded-full ring-2 ring-white" />
-              <img src="https://pbs.twimg.com/profile_images/1790068799204634625/p5zTn3iI_normal.jpg" alt="" className="inline-block size-10 rounded-full ring-2 ring-white" />
+              <img src="https://pbs.twimg.com/profile_images/1790068799204634625/p5zTn3iI_normal.jpg" alt="" className="inline-block size-8 rounded-full ring-2 ring-white" />
+              <img src="https://unavatar.io/x/carlvellotti" alt="" className="inline-block size-8 rounded-full ring-2 ring-white" />
+              <img src="https://pbs.twimg.com/profile_images/1918840927352733696/Wh95CwV5_400x400.jpg" alt="" className="inline-block size-8 rounded-full ring-2 ring-white" />
+              <img src="https://unavatar.io/x/flowagent1" alt="" className="inline-block size-8 rounded-full ring-2 ring-white" />
+              <img src="https://pbs.twimg.com/profile_images/1935348909238321152/ZB51UHkk_normal.jpg" alt="" className="inline-block size-8 rounded-full ring-2 ring-white" />
             </div>
             <div>
               <div className="flex">
@@ -68,7 +66,7 @@ function PageHome() {
                 <IconStar />
                 <IconStar />
               </div>
-              <p>Loved by 150+ writers worldwide</p>
+              <p className="text-sm">Loved by 150+ writers worldwide</p>
             </div>
           </div>
 
@@ -91,35 +89,131 @@ function PageHome() {
           <div className="flex flex-col items-center mb-8">
             <h1 className="text-7xl font-medium text-gray-800 max-w-[800px] mb-4 font-instrument-serif">
               {/* Supercharge your writing with AI Partner in one tab <br /> */}
-              An <span className="svg-underline">AI Writing Partner</span>, <br/> Right Where You Write.
+              {/* An <span className="svg-underline">AI Writing Partner</span>, <br /> Right Where You Write. */}
+
+
+
+
+              An
+              {/* <span style={{ position: 'relative', display: 'inline-block' }}>
+                <span style={{ position: 'relative', zIndex: 1 }}>AI Writing Partner</span>
+                <svg
+                  viewBox="0 0 120 30"
+                  preserveAspectRatio="none"
+                  style={{
+                    position: 'absolute',
+                    bottom: 0,
+                    left: 0,
+                    width: '100%',
+                    height: '15px',
+                    zIndex: 0,
+                    pointerEvents: 'none',
+                  }}
+                >
+                  <path
+                    d="M0 28 
+         Q 20 22, 40 18 
+         Q 60 14, 80 16 
+         Q 100 20, 120 26"
+                    fill="none"
+                    stroke="#000"
+                    strokeWidth="3"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </span> */}
+              <span className="ml-4" style={{ position: 'relative', display: 'inline-block' }}>
+                <span style={{ position: 'relative', zIndex: 1 }}>AI Writing Partner</span>
+                <svg
+                  className="stroke-[#480383]"
+                  viewBox="0 0 120 40"
+                  preserveAspectRatio="none"
+                  style={{
+                    position: 'absolute',
+                    bottom: '-6px',
+                    left: '-8px',
+                    width: 'calc(100% + 16px)',
+                    height: '20px',
+                    zIndex: 0,
+                    pointerEvents: 'none',
+                  }}
+                >
+                  <path
+                    d="M-10 35 
+         Q 30 20, 60 18 
+         Q 90 16, 130 33"
+                    fill="none"
+                    strokeWidth="3"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </span>
+
+              , <br /> Right Where You Write.
+
+
+
+              {/* <span style={{ position: 'relative', display: 'inline-block', fontSize: '28px', fontWeight: '600' }}>
+  <span style={{ position: 'relative', zIndex: 1 }}>Signature</span>
+  <svg
+    viewBox="0 0 120 40"
+    preserveAspectRatio="none"
+    style={{
+      position: 'absolute',
+      bottom: '-6px',
+      left: '-8px',
+      width: 'calc(100% + 16px)',
+      height: '20px',
+      zIndex: 0,
+      pointerEvents: 'none',
+    }}
+  >
+    <path
+      d="M-10 35 
+         Q 30 20, 60 18 
+         Q 90 16, 130 33"
+      fill="none"
+      stroke="#000"
+      strokeWidth="3"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+</span> */}
+
 
 
               {/* <span className="svg-underline mr-5">
                 Supercharged by AI Partner
               </span>
               in one tab */}
+
             </h1>
             <p className="text-xl max-w-[700px] text-gray-800">Lucid blends AI-powered drafting, research, and editing into one seamless workspace. Write smarter, faster, and with context—all in a single tab.</p>
           </div>
 
 
-          <div className="mb-16 space-x-4">
+          <div className="mb-4 space-x-4">
             <button className="cursor-pointer px-10 py-4 text-lg font-semibold text-gray-100 bg-[#67279e] border-[#160526] rounded-lg ">
               <div className="flex items-center space-x-2">
                 <span>Start Writing</span>
                 <ArrowRight />
               </div>
             </button>
-            <button className="cursor-pointer text-gray-800 px-10 py-4 text-lg border bg-white/90 border-gray-400 rounded-lg">Learn more</button>
+            <button className="cursor-pointer text-gray-800 px-10 py-4 text-lg border bg-white/30 border-gray-400 rounded-lg">Learn more</button>
           </div>
 
-          <div className="mb-6">
+          <span className="mb-20">No credit card required.</span>
+
+          {/* <div className="mb-6">
             <ul className="flex flex-row">
               <li className="after:content-['•'] after:mx-2 last:after:content-none">No credit card required</li>
               <li className="after:content-['•'] after:mx-2 last:after:content-none">Unlimited Messages</li>
               <li>AI Assisted Writing</li>
             </ul>
-          </div>
+          </div> */}
 
 
           <Image src="/images/product-thumbnail.webp" alt="Product Image" className="w-[1000px] rounded-lg z-10" width="1000" height="1000" />
